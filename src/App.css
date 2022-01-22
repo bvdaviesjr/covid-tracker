@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.header {
+
+  margin-bottom: 20px;
+  flex: 0.8;
+}
+
+.stats__section {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top {
+  display: flex;
+}
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
+}
